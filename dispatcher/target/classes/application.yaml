@@ -1,0 +1,6 @@
+telegram:
+  bot:
+    name: Lisa_IdealBot
+    token: 6170968276:AAEvt_Sktp1H2-xIpDEEV2DIjy5MqYO1WsU
+server:
+  port: 8081
