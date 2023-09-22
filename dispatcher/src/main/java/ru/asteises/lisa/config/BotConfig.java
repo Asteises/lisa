@@ -17,9 +17,9 @@ import ru.asteises.lisa.util.PagesCounter;
 public class BotConfig {
 
     @Bean
-    public TelegramBotController botController(@Value("${telegram.bot.name}") String botName,
-                                               @Value("${telegram.bot.token}") String botToken,
-                                               FirstPageKeyboard firstPageKeyboard,
+        public TelegramBotController botController(@Value("${telegram.bot.name}") String botName,
+                                                   @Value("${telegram.bot.token}") String botToken,
+                                                   FirstPageKeyboard firstPageKeyboard,
                                                SimpleService simpleService,
                                                HeroPageKeyBoard heroPageKeyBoard,
                                                HeroPageRepository heroPageRepository,
